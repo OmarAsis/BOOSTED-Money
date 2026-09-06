@@ -1,6 +1,6 @@
 # BOOSTED Money
 
-A terminal-based personal finance tracker. Log transactions, set budgets, import bank CSVs, catch recurring subscriptions, compare spending period-over-period, track savings goals, and export a full spending report as a PDF — all from a simple numbered menu.
+A terminal-based personal finance tracker. Log transactions, set budgets, import bank CSVs, catch recurring subscriptions, compare spending period-over-period, track savings goals, and export a full spending report as a PDF.
 
 ## Screenshots
 
@@ -27,15 +27,15 @@ Option 10 exports the full report as a formatted PDF with charts:
 
 ## Features
 
-- **Transactions** — add, search, edit, and delete transactions
-- **Budgets** — set per-category budgets and check status (under / at / over)
-- **Reports** — biweekly spending report with totals, category breakdown, top expenditures, and a rotating financial "saying" based on your mood tier
-- **CSV import** — import a bank statement, auto-map columns, guess categories by merchant keyword, and skip rows already imported
-- **Recurring detection** — flags merchants charging consistent amounts on a regular interval as active subscriptions
-- **Trends** — compares the current period against the prior period, category by category
-- **Stats** — income vs. expenses, savings rate, daily average spend, projected monthly pace, biggest movers, merchant leaderboard, year-to-date summary
-- **Savings goals** — set a goal and track progress based on net savings since creation
-- **PDF export** — turn any report into a shareable PDF with charts
+- **Transactions**: add, search, edit, and delete transactions
+- **Budgets**: set per-category budgets and check status (under / at / over)
+- **Reports**: biweekly spending report with totals, category breakdown, top expenditures, and a rotating financial "saying" based on your mood tier
+- **CSV import**: import a bank statement, auto-map columns, guess categories by merchant keyword, and skip rows already imported
+- **Recurring detection**: flags merchants charging consistent amounts on a regular interval as active subscriptions
+- **Trends**: compares the current period against the prior period, category by category
+- **Stats**: income vs. expenses, savings rate, daily average spend, projected monthly pace, biggest movers, merchant leaderboard, year-to-date summary
+- **Savings goals**: set a goal and track progress based on net savings since creation
+- **PDF export**: turn any report into a shareable PDF with charts
 
 
 ## Setup
