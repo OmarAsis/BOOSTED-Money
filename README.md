@@ -37,33 +37,6 @@ Option 10 exports the full report as a formatted PDF with charts:
 - **Savings goals** — set a goal and track progress based on net savings since creation
 - **PDF export** — turn any report into a shareable PDF with charts
 
-## Project structure
-├── main.py               # entry point / menu loop
-├── db_control.py         # schema init + category seeding
-├── schema.sql             # database schema
-├── transactions.py       # insert / get / edit / remove transactions
-├── search.py             # combinable transaction search filters
-├── budgets.py             # set/check budget logic
-├── reports.py             # category aggregation, top expenditures, full report builder
-├── report_stats.py       # income/expenses, stats, projections, leaderboard, YTD
-├── csv_importer.py       # column normalization, category guessing, dedupe by hash
-├── recurring.py           # merchant normalization + subscription detection
-├── trends.py              # period-over-period comparison
-├── financial_sayings.py  # mood detection + saying bank
-├── goals.py                # savings goal tracking
-├── pdf_export.py          # renders a report + charts to PDF
-├── rich_display.py       # terminal table/panel formatting
-├── format_output.py      # shared output formatting helpers
-├── check_db.py            # local DB inspection script (git-ignored)
-├── tests.py               # pytest suite
-├── README.md
-├── .gitignore
-├── screenshots/           # images used in this README
-├── reports/                # generated PDF exports land here
-├── data/                   # local database file(s) (git-ignored)
-├── venv/                   # virtual environment (git-ignored)
-└── __pycache__/            # compiled bytecode (git-ignored)
-
 
 ## Setup
 
@@ -93,4 +66,3 @@ pytest tests.py -v
 
 - `venv/`, `data/`, `__pycache__/`, and `check_db.py` are git-ignored — see `.gitignore`.
 - The report's "mood" and financial saying are derived from budget status and spending trend, not hardcoded per period.
-```
